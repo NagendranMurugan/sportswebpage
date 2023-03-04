@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   <link rel="stylesheet" href="./pro.css">
+</head>
+<!-- class="bg-cyan-400" -->
+<body> 
+    <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center">
+            <span class="text-2xl font-[poppins] cursor-pointer">
+                <img class="h-10 inline" src="data:image/png;base64,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
+                    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" >
+                Naga Sports
+            </span>
+            <span class="text-3xl cursor-pointer mx-2 md:hidden blaok">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+
+            </span>
+        </div>
+
+          <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#" class="text-xl hover:text-cyan-500 duration-500">HOME</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#" class="text-xl hover:text-cyan-500 duration-500">ABOUT</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#" class="text-xl hover:text-cyan-500 duration-500">CONTACT</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#" class="text-xl hover:text-cyan-500 duration-500">SERVICE</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#" class="text-xl hover:text-cyan-500 duration-500">MORE</a>
+            </li>
+            <button class="bg-cyan-400 text-white font-[poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded">
+                search
+             </button>
+    </ul>
+    </nav>
+  <script>
+    function Menu(e){
+            e.name==='menu' ? (e.name="close",list.classList.add('top-[80px]'),list.classList.add('opacity-100')):(e.name="menu",
+             list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+  </script>
+  <div class="n1">
+    <h1>nagendran</h1>
+  </div>
+</body>
+</html>
